@@ -1,7 +1,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 # Size of the cluster created by Vagrant
-num_instances = 4
+num_instances = 2
 
 # VM Basename
 instance_name_prefix="calico"

@@ -1,6 +1,6 @@
 {
   "id": "http",
-  "cmd": "python -m SimpleHTTPServer $PORT",
+  "cmd": "echo 'hola ASD' >> index.html && python -m SimpleHTTPServer $PORT",
   "mem": 50,
   "cpus": 0.1,
   "instances": 1,
