@@ -1,0 +1,10 @@
+{
+  "id": "/test_framework",
+  "instances": 1,
+  "cpus": 0.1,
+  "mem": 100,
+  "cmd": "./test_framework",
+  "uris": [
+    "http://my.apps.store/apps.tar.gz"
+  ]
+}

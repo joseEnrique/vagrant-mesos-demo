@@ -1,0 +1,11 @@
+{  
+   "id":"tomcat",
+   "cmd":"mv .war apache-tomcat-/webapps && cd apache-tomcat-* && sed \"s/8080/$PORT/g\" < ./conf/server.xml > ./conf/server-mesos.xml && ./bin/catalina.sh run -config ./conf/server-mesos.xml",
+   "mem":512,
+   "cpus":0.5,
+   "instances":1,
+   "uris":[  
+      "http://mirrors.gigenet.com/apache/tomcat/tomcat-8/v8.0.23/bin/apache-tomcat-8.0.23.tar.gz",
+      "https://gwt-examples.googlecode.com/files/Calendar.war"
+   ]
+}
